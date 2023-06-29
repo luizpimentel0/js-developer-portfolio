@@ -1,0 +1,63 @@
+{
+  "name": "Luiz Fernando",
+  "photo": "https://avatars.githubusercontent.com/u/47954897?v=4",
+  "job": "Junior front-end developer",
+  "location": "Cotia - SP",
+  "phone": "(11) 97782-6080",
+  "email": "luiz.fpimentel0@gmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "CSS",
+        "logo": "../assets/icons/stacks/css.svg"
+      },
+      {
+        "name": "JavaScript",
+        "logo": "../assets/icons/stacks/javascript.svg"
+      },
+      {
+        "name": "React",
+        "logo": "../assets/icons/stacks/react.svg"
+      },
+      {
+        "name": "Vue",
+        "logo": "../assets/icons/stacks/vue.svg"
+      },
+      {
+        "name": "PHP",
+        "logo": "../assets/icons/stacks/php.svg"
+      }
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Flexibilidade",
+      "Resiliência",
+      "Proatividade"
+    ]
+  },
+  "languages": ["Português BR", "Inglês (intermediário)"],
+  "portfolio": [
+    {
+      "name": "Dev Finance - Página de Finanças Pessoais",
+      "url": "https://luizpimentel0.github.io/dev-finance/",
+      "github": true
+    },
+    {
+      "name": "Curso",
+      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "github": true
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Desenvolvedor Web Jr",
+      "period": "Setembro 2022 - Maio 2023",
+      "description": "Empresa no segmento LIS, atuava no desenvolvimento e manutenção de funcionalidades do sistema, com as tecnologias : HTML, CSS, Javascript, PHP, Laravel, MySQL, ReactJ"
+    },
+    {
+      "name": "Suporte Técnico",
+      "period": "Maio 2021 - Agosto 2022",
+      "description": "Auxílio com as ferramentas do sistema, via chat ou telefone para o cliente."
+    }
+  ]
+}

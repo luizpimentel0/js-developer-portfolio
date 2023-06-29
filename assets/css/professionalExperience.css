@@ -1,0 +1,41 @@
+.professional-experience {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.professional-experience .title {
+  font-size: 1rem;
+}
+
+.professional-experience p {
+  font-size: 0.75rem;
+}
+
+.professional-experience p.period {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.professional-experience p.period::before {
+  content: '';
+  width: 1rem;
+  height: 1rem;
+  display: inline-block;
+  background: center / contain no-repeat url('../icons/calendar.svg');
+}
+
+@media only screen and (min-width: 768px) {
+  .professional-experience .title {
+    font-size: 1.25rem;
+  }
+
+  .professional-experience p {
+    font-size: initial;
+  }
+}

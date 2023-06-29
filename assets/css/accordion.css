@@ -1,0 +1,77 @@
+.accordion {
+  display: flex;
+  flex-direction: column;
+
+  color: #fff;
+  border:1px solid currentColor;
+  border-radius: 10px;
+
+  margin-top: 2rem;
+}
+
+.accordion.open,
+.accordion:hover {
+  background-color: #55569E;
+  border-color: #55569E;
+
+  transition: background .25s;
+}
+
+.accordion .trigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: transparent;
+  color:#fff;
+
+  font-size: 1rem;
+  font-weight: 700;
+
+  padding: 1rem 2rem;
+  border: none;
+
+  cursor: pointer;
+}
+
+.accordion .content {
+  overflow: hidden;
+  max-height: 0;
+  padding: 0;
+  transition: max-height, padding .25s ease-out;
+}
+
+.accordion.open .content  {
+  max-height: 500px;
+  transition: max-height, padding 0.25s ease-in;
+  padding: 0 1rem 1rem 2rem;
+}
+
+.accordion .trigger::after {
+  content: '';
+  display: inline-block;
+  align-self: center;
+
+  width: 1rem;
+  height: 1rem;
+  background: center / contain no-repeat url('../icons/arrow.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  transition: .25s;
+}
+
+.accordion.open .trigger.trigger:after {
+  transform: rotate(180deg);
+}
+
+@media only screen and (min-width: 768px) {
+  .accordion .trigger {
+    font-size: 1.5rem;
+  }
+
+  .accordion .trigger::after {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
