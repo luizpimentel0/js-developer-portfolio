@@ -9,23 +9,23 @@
     "hardSkills": [
       {
         "name": "CSS",
-        "logo": "../assets/icons/stacks/css.svg"
+        "logo": "assets/icons/stacks/css.svg"
       },
       {
         "name": "JavaScript",
-        "logo": "../assets/icons/stacks/javascript.svg"
+        "logo": "assets/icons/stacks/javascript.svg"
       },
       {
         "name": "React",
-        "logo": "../assets/icons/stacks/react.svg"
+        "logo": "assets/icons/stacks/react.svg"
       },
       {
         "name": "Vue",
-        "logo": "../assets/icons/stacks/vue.svg"
+        "logo": "assets/icons/stacks/vue.svg"
       },
       {
         "name": "PHP",
-        "logo": "../assets/icons/stacks/php.svg"
+        "logo": "assets/icons/stacks/php.svg"
       }
     ],
     "softSkills": [
