@@ -58,8 +58,6 @@ function updateProfessionalExperience(profileData) {
     '.professional-experience',
   );
 
-  console.log(professionalExperience);
-
   professionalExperience.innerHTML = profileData.professionalExperience
     .map(
       (professionalExperience) => `
